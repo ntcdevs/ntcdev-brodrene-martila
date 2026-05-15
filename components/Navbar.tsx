@@ -25,14 +25,9 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const navBg = scrolled
-    ? isLight
-      ? `rgba(255,255,255,0.97)`
-      : `${primaryColor}f5`
-    : "transparent";
-
+  const navBg = scrolled ? `${primaryColor}f5` : "transparent";
   const navBorder = scrolled ? `${accentColor}33` : "transparent";
-  const linkColor = isLight && !scrolled ? "#ffffff" : textColor;
+  const linkColor = textColor;
 
   return (
     <header
@@ -49,7 +44,7 @@ export default function Navbar() {
         <a href="#hjem">
           <span
             className="font-[family-name:var(--font-playfair)] text-xl font-semibold tracking-widest uppercase transition-colors duration-500"
-            style={{ color: scrolled && isLight ? textColor : (isLight ? "#ffffff" : textColor) }}
+            style={{ color: textColor }}
           >
             {config.business.name}
           </span>
@@ -88,7 +83,7 @@ export default function Navbar() {
 
         <button
           className="md:hidden transition-colors"
-          style={{ color: scrolled && isLight ? textColor : (isLight ? "#ffffff" : textColor) }}
+          style={{ color: textColor }}
           onClick={() => setOpen(!open)}
           aria-label="Meny"
         >
@@ -100,7 +95,7 @@ export default function Navbar() {
         <div
           className="md:hidden border-t"
           style={{
-            backgroundColor: isLight ? "rgba(255,255,255,0.98)" : `${primaryColor}f8`,
+            backgroundColor: `${primaryColor}f8`,
             borderColor: `${accentColor}22`,
           }}
         >
