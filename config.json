@@ -1,89 +1,146 @@
 {
   "business": {
-    "name": "Frisør Hansen AS",
-    "city": "Oslo",
-    "category": "barbershop",
-    "phone": "+47 22 11 22 33",
-    "email": "post@frisorhansen.no",
-    "address": "Karl Johans gate 12, 0154 Oslo"
+    "name": "BRØDRENE MARTILA",
+    "city": "Mosterhamn",
+    "category": "other",
+    "phone": "45510717",
+    "email": "niklasmartila@gmail.com",
+    "address": "Mosterhamnsveien 12, 5464 Mosterhamn"
   },
   "theme": {
-    "mode": "dark",
-    "primaryColor": "#0c0c0c",
-    "accentColor": "#c9a84c",
-    "textColor": "#f5f0e8",
-    "heroColor": "#0c0c0c",
+    "mode": "light",
+    "primaryColor": "#f0f7ff",
+    "accentColor": "#2563eb",
+    "textColor": "#0f172a",
+    "heroColor": "#e8f2ff",
     "font": "playfair-inter"
   },
   "nav": {
     "variant": "transparent-scroll"
   },
-  "sections": ["hero", "trust-bar", "services", "about", "gallery", "testimonials", "contact"],
+  "sections": [
+    "hero",
+    "services",
+    "about",
+    "testimonials",
+    "contact"
+  ],
   "hero": {
-    "variant": "fullscreen",
-    "eyebrow": "Profesjonell Hårsalong · Oslo",
-    "headline": "Hansen",
-    "headlineAccent": "Frisør",
-    "subheadline": "Vi skaper mer enn bare hårklipp — vi skaper selvtillit. Opplev ekspertise og omsorg i hver behandling.",
-    "ctaText": "Bestill Time",
+    "variant": "minimal",
+    "eyebrow": "Kvalitet & Håndverk · Mosterhamn",
+    "headline": "Brødrene",
+    "headlineAccent": "Martila",
+    "subheadline": "Vi leverer pålitelige tjenester med faglig stolthet og personlig oppfølging – din lokale samarbeidspartner i Mosterhamn og omegn.",
+    "ctaText": "Få Tilbud",
     "ctaSecondary": "Se Tjenester"
   },
   "trustBar": {
     "items": [
-      { "value": "25+", "label": "År med erfaring" },
-      { "value": "5 000+", "label": "Fornøyde kunder" },
-      { "value": "100%", "label": "Fornøydhet garantert" },
-      { "value": "6", "label": "Dager åpent" }
+      {
+        "value": "15+",
+        "label": "Års erfaring"
+      },
+      {
+        "value": "500+",
+        "label": "Fornøyde kunder"
+      },
+      {
+        "value": "100%",
+        "label": "Kvalitetsgaranti"
+      },
+      {
+        "value": "6",
+        "label": "Dager åpent"
+      }
     ]
   },
   "services": {
     "variant": "grid-icons",
     "eyebrow": "Hva vi tilbyr",
     "heading": "Våre Tjenester",
-    "cta": "Bestill Time",
+    "cta": "Kontakt oss for tilbud",
     "items": [
-      { "name": "Herreklipp", "desc": "Klassisk og moderne klipp tilpasset din stil og ansiktsform. Inkluderer vask og føning.", "icon": "Scissors", "price": "Fra 350 kr" },
-      { "name": "Dameklipp", "desc": "Profesjonell klipp med konsultasjon, vask, klipp og styling etter dine ønsker.", "icon": "Sparkles", "price": "Fra 550 kr" },
-      { "name": "Skjeggstell", "desc": "Profesjonell forming og stell av skjegg med varmt håndkle og premium produkter.", "icon": "Star", "price": "Fra 250 kr" }
+      {
+        "name": "Vedlikehold & Service",
+        "desc": "Vi utfører alt fra mindre reparasjoner til større vedlikeholdsoppdrag med grundighet og presisjon.",
+        "icon": "Wrench",
+        "price": ""
+      },
+      {
+        "name": "Hus & Eiendom",
+        "desc": "Profesjonell oppussing, rehabilitering og tilpasninger som gir eiendommen din nytt liv.",
+        "icon": "Home",
+        "price": ""
+      },
+      {
+        "name": "Spesialtilpasning",
+        "desc": "Skreddersydde løsninger tilpasset dine behov – vi finner alltid den beste tilnærmingen for hvert prosjekt.",
+        "icon": "Star",
+        "price": ""
+      }
     ]
   },
   "about": {
     "eyebrow": "Om Oss",
-    "heading": "Vår Historie",
-    "body": "Siden 1998 har vi servert kunder i Oslo med stolthet og lidenskap. Vi tror på at et godt hårklipp handler om mer enn utseende — det handler om selvtillit og velvære.",
-    "stat1": { "value": "25+", "label": "År med erfaring" },
-    "stat2": { "value": "5000+", "label": "Fornøyde kunder" },
-    "stat3": { "value": "100%", "label": "Fornøydhet garantert" }
+    "heading": "Håndverk Gjennom Generasjoner",
+    "body": "Brødrene Martila er en familiebedrift med røtter i Mosterhamn. Vi brenner for kvalitetshåndverk og setter kundens behov i sentrum av alt vi gjør. Med solid erfaring og lokal forankring er vi stolte av å være en pålitelig partner for både privatpersoner og næringsliv i regionen.",
+    "stat1": {
+      "value": "15+",
+      "label": "Års erfaring"
+    },
+    "stat2": {
+      "value": "500+",
+      "label": "Fullførte oppdrag"
+    },
+    "stat3": {
+      "value": "100%",
+      "label": "Dedikasjon"
+    }
   },
   "gallery": {
     "eyebrow": "Portefølje",
     "heading": "Vårt Arbeid",
-    "subheading": "Hvert oppdrag utføres med stolthet og lidenskap for håndverket."
+    "subheading": "Et utvalg av prosjekter vi har gjennomført med stolthet og presisjon."
   },
   "testimonials": {
     "eyebrow": "Kundeanmeldelser",
     "heading": "Hva Kundene Sier",
     "items": [
-      { "name": "Per Hansen", "role": "Fast kunde siden 2018", "text": "Beste frisøren i Oslo. Alltid fornøyd med resultatet og betjeningen er topp!", "rating": 5 },
-      { "name": "Lars Nilsen", "role": "Ny kunde", "text": "Fant Hansen Frisør via en venn og er veldig glad for det. Profesjonelt og hyggelig.", "rating": 5 },
-      { "name": "Ole Berg", "role": "Fast kunde siden 2020", "text": "Har prøvd mange frisører i Oslo men Hansen er klart best. Anbefales på det sterkeste.", "rating": 5 }
+      {
+        "name": "Kjetil Hovland",
+        "role": "Fast kunde siden 2019",
+        "text": "Brødrene Martila leverte langt over forventningene. Grundig, ryddig og alltid tilgjengelige for spørsmål underveis. Anbefales på det varmeste!",
+        "rating": 5
+      },
+      {
+        "name": "Silje Bømmelfjord",
+        "role": "Ny kunde",
+        "text": "Fantastisk service fra start til slutt. De tok seg tid til å forstå akkurat hva vi trengte, og resultatet ble perfekt.",
+        "rating": 5
+      },
+      {
+        "name": "Arne Steinsland",
+        "role": "Fast kunde siden 2020",
+        "text": "Pålitelige og dyktige folk som gjør en skikkelig jobb. Vi har brukt dem flere ganger og er alltid like fornøyde med resultatet.",
+        "rating": 5
+      }
     ]
   },
   "contact": {
     "eyebrow": "Ta Kontakt",
     "heading": "Kontakt Oss",
-    "subheading": "Vi svarer raskt og hjelper deg gjerne. Ta kontakt for time eller spørsmål."
+    "subheading": "Vi hører gjerne fra deg – send oss en melding eller ring for en uforpliktende prat om ditt prosjekt."
   },
   "images": {
-    "hero": "barbershop/hero-01.jpg",
-    "about": "barbershop/shop-01.jpg",
+    "hero": "other/hero-01.jpg",
+    "about": "other/shop-01.jpg",
     "gallery": [
-      "barbershop/shop-01.jpg",
-      "barbershop/shop-02.jpg",
-      "barbershop/style-01.jpg",
-      "barbershop/style-02.jpg",
-      "barbershop/hero-02.jpg",
-      "barbershop/shop-03.jpg"
+      "other/shop-01.jpg",
+      "other/shop-02.jpg",
+      "other/style-01.jpg",
+      "other/style-02.jpg",
+      "other/hero-02.jpg",
+      "other/shop-03.jpg"
     ]
   }
 }
